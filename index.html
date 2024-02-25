@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNIT CONVERTER</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>UNIT CONVERTER</h1>
+      <div class="conversion-section">
+        <div class="from-section">
+          <label for="from-unit">CONVERT FROM</label>
+          <select id="from-unit">
+            <option value="millimeter">MILÍMETRO</option>
+            <option value="centimeter">CENTÍMETRO</option>
+            <option value="decimeter">DECÍMETRO</option>
+            <option value="meter">METRO</option>
+            <option value="decameter">DECÂMETRO</option>
+            <option value="hectometer">HECTÔMETRO</option>
+            <option value="kilometer">QUILOMÊTRO</option>
+          </select>
+        </div>
+        <div class="to-section">
+          <label for="to-unit">FOR</label>
+          <select id="to-unit">
+            <option value="millimeter">MILÍMETRO</option>
+            <option value="centimeter">CENTÍMETRO</option>
+            <option value="decimeter">DECÍMETRO</option>
+            <option value="meter">METRO</option>
+            <option value="decameter">DECÂMETRO</option>
+            <option value="hectometer">HECTÔMETRO</option>
+            <option value="kilometer">QUILOMÊTRO</option>
+          </select>
+        </div>
+      </div>
+      <div class="result">
+        <label for="result">RESULT</label>
+        <input type="text" id="result" readonly />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
